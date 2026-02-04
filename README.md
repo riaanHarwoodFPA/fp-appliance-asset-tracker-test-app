@@ -67,6 +67,21 @@ Mock Data → Dashboard State → Props → UI Components
 <br>
 
 
+**Current vs Future Architecture**
++ Current (Phase 1)
++ Frontend-only
++ Local state
++ Mock data
++ No authentication
+**Future Enhancements**
++ REST API integration
++ Backend service (Node / Python)
++ Database (Postgres)
++ Role-based access
++ Authentication (SSO / AD)
+
+
+
 **Installation & Set Up**
 <br>
 <br>
