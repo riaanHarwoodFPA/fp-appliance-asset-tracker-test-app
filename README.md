@@ -73,6 +73,7 @@ Mock Data → Dashboard State → Props → UI Components
 + Local state
 + Mock data
 + No authentication
+  
 **Future Enhancements**
 + REST API integration
 + Backend service (Node / Python)
