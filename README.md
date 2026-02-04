@@ -8,13 +8,11 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 + TypeScript
 + Tailwind
 + MongoDB (Later iteration)
-
+&nbsp;
 
 **System Architecture**
 TBC
-
-
-
+&nbsp;
 
 
 **Mock UI** 
