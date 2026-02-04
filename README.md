@@ -14,35 +14,37 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 
 **System Architecture**
 
+
 <br>
 High-level Architecture Design
-'''
+```
 ┌──────────────────────────────┐
-│        Presentation Layer     │
-│  (React + TypeScript UI)      │
+│        Presentation Layer    │
+│  (React + TypeScript UI)     │
 │                              │
-│  - Dashboard Page             │
-│  - Appliance Table            │
-│  - Forms & Filters            │
+│  - Dashboard Page            │
+│  - Appliance Table           │
+│  - Forms & Filters           │
 └──────────────▲───────────────┘
                │
 ┌──────────────┴───────────────┐
-│        State & Logic Layer     │
+│        State & Logic Layer   │
 │                              │
-│  - React State (useState)     │
-│  - Business Rules             │
-│  - TypeScript Models          │
+│  - React State (useState)    │
+│  - Business Rules            │
+│  - TypeScript Models         │
 └──────────────▲───────────────┘
                │
 ┌──────────────┴───────────────┐
-│        Data Layer (Mock)       │
+│        Data Layer (Mock)     │
 │                              │
-│  - Mock Appliance Data        │
-│  - Simulated API Responses    │
+│  - Mock Appliance Data       │
+│  - Simulated API Responses   │
 │                              │
 │  (Future: REST / Backend)    │
 └──────────────────────────────┘
-'''
+```
+
 <br>
 <br>
 
