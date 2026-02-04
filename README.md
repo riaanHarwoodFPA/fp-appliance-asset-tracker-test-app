@@ -81,7 +81,8 @@ Mock Data → Dashboard State → Props → UI Components
 + Role-based access
 + Authentication (SSO / AD)
 
-
+<br>
+<br>
 
 **Installation & Set Up**
 <br>
