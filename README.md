@@ -14,10 +14,10 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 
 **System Architecture**
 
-
 <br>
 High-level Architecture Design
 <br>
+
 Basic architecture for frontend layout & business logic for backend. 
 
 ```
