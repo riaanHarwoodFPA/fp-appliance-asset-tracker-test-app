@@ -48,12 +48,7 @@ Basic architecture for frontend layout & business logic for backend.
 <br>
 Data Flow Diagram
 This diagram illustrates the applications use of unidirectional data flow. I'm using predictable states in the logic layer level to update the states of the item
-```
-Mock Data → Dashboard State → Props → UI Components
-                      ↑
-                User Actions
-           (Add / Edit / Filter)
-```
+
 
 <br>
 <br>
