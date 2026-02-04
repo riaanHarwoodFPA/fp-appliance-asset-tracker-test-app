@@ -11,3 +11,4 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 
 
 **System Architecture**
+TBC
