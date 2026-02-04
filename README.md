@@ -17,10 +17,10 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 
 <br>
 High-level Architecture Design
-
+Basic architecture for frontend layout & business logic for backend. 
 ```
 ┌──────────────────────────────┐
-│        Presentation Layer    │
+│      Presentation Layer      │
 │  (React + TypeScript UI)     │
 │                              │
 │  - Dashboard Page            │
@@ -29,7 +29,7 @@ High-level Architecture Design
 └──────────────▲───────────────┘
                │
 ┌──────────────┴───────────────┐
-│        State & Logic Layer   │
+│      State & Logic Layer     │
 │                              │
 │  - React State (useState)    │
 │  - Business Rules            │
@@ -44,6 +44,15 @@ High-level Architecture Design
 │                              │
 │  (Future: REST / Backend)    │
 └──────────────────────────────┘
+```
+<br>
+Data Flow Diagram
+This diagram illustrates the applications use of unidirectional data flow. I'm using predictable states in the logic layer level to update the states of the item
+```
+Mock Data → Dashboard State → Props → UI Components
+                      ↑
+                User Actions
+           (Add / Edit / Filter)
 ```
 
 <br>
