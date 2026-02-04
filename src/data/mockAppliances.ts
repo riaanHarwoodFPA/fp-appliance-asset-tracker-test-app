@@ -1,5 +1,5 @@
-// This file is to simulate mock data that will be displayed on the dashboard. This simulates t
-// the retrieval of data from the backend system
+// This file simulates mock data that will be displayed on the dashboard. 
+// there are 3 examples of products which the data is stored in the backend system 
 
 
 import type { Appliance } from "../models/Appliance";
