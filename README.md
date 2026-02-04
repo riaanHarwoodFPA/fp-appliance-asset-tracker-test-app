@@ -75,12 +75,12 @@ Mock Data → Dashboard State → Props → UI Components
 + No authentication
   
 **Future Enhancements**
-+ Authentication 
++ Authentication (SSO / AD)
 + REST API integration
 + Backend service (Node / Python)
 + Database (Postgres)
 + Role-based access
-+ Authentication (SSO / AD)
+
 
 <br>
 <br>
