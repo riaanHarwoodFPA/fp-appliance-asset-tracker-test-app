@@ -1,4 +1,5 @@
 // This file simulates mock data that will be displayed on the dashboard. 
+// This will simulate the API responses and internal databases. 
 // there are 3 examples of products which the data is stored in the backend system 
 
 
