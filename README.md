@@ -85,6 +85,24 @@ Mock Data → Dashboard State → Props → UI Components
 <br>
 <br>
 
+
+**Architecture Approach**
+
+I've developed this project to follow a simple layered frontend architecture commonly used in internal enterprise applications. Since it's an entry-level project, I won't be storing any user data in a specific database but rather utilise mock data to visual how the system works. 
+<br>
+The application is built using React and TypeScript and is structured into three primary layers:
+<br> 
+Presentation Layer:
++ Responsible for rendering the user interface, including dashboards, tables, forms, and filters.
+State & Logic Layer: 
++ Manages application state, business logic, and type-safe domain models using TypeScript interfaces.
+Data Layer (Mocked): 
++ Simulates backend data using static mock data to represent appliance records. This layer is designed to be easily replaced with a real API in future iterations.
+The architecture supports clear separation of concerns, predictable data flow, and scalability for future backend integration.
+<br>
+<br> 
+
+
 **Installation & Set Up**
 <br>
 <br>
