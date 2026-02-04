@@ -18,6 +18,7 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 <br>
 High-level Architecture Design
 Basic architecture for frontend layout & business logic for backend. 
+
 ```
 ┌──────────────────────────────┐
 │      Presentation Layer      │
@@ -45,6 +46,7 @@ Basic architecture for frontend layout & business logic for backend.
 │  (Future: REST / Backend)    │
 └──────────────────────────────┘
 ```
+
 <br>
 Data Flow Diagram
 This diagram illustrates the applications use of unidirectional data flow. I'm using predictable states in the logic layer level to update the states of the item
