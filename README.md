@@ -94,8 +94,10 @@ The application is built using React and TypeScript and is structured into three
 <br> 
 Presentation Layer:
 + Responsible for rendering the user interface, including dashboards, tables, forms, and filters.
+
 State & Logic Layer: 
 + Manages application state, business logic, and type-safe domain models using TypeScript interfaces.
+
 Data Layer (Mocked): 
 + Simulates backend data using static mock data to represent appliance records. This layer is designed to be easily replaced with a real API in future iterations.
 The architecture supports clear separation of concerns, predictable data flow, and scalability for future backend integration.
