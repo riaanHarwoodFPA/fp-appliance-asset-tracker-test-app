@@ -16,7 +16,7 @@ A TypeScript-first internal dashboard which tracks all appliances and other asse
 
 <br>
 High-level Architecture Design
-```
+'''
 ┌──────────────────────────────┐
 │        Presentation Layer    │
 │  (React + TypeScript UI)     │
@@ -42,7 +42,7 @@ High-level Architecture Design
 │                              │
 │  (Future: REST / Backend)    │
 └──────────────────────────────┘
-```
+'''
 <br>
 <br>
 
